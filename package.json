@@ -1,0 +1,24 @@
+{
+  "name": "sham-backend",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "devStart": "nodemon index.ts",
+    "start": "ts-node index"
+  },
+  "dependencies": {
+    "socket.io": "^4.4.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "@types/uuid": "^8.3.4",
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.12",
+    "ts-jest": "^27.1.3",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  }
+}
